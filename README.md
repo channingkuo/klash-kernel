@@ -37,7 +37,7 @@ Configuration example is located at [/docs/config.yaml](https://github.com/chann
 Requirements:
 [Go 1.20 or newer](https://go.dev/dl/)
 
-Build mihomo:
+Build Klash Kernel:
 
 ```shell
 git clone https://github.com/channingkuo/klash-kernel.git
