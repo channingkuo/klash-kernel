@@ -4,8 +4,8 @@
 </h1>
 
 <p align="center">
-  <a href="https://goreportcard.com/report/github.com/MetaCubeX/mihomo">
-    <img src="https://goreportcard.com/badge/github.com/MetaCubeX/mihomo?style=flat-square">
+  <a href="https://goreportcard.com/report/github.com/channingkuo/klash-kernel">
+    <img src="https://goreportcard.com/badge/github.com/channingkuo/klash-kernel?style=flat-square">
   </a>
   <img src="https://img.shields.io/github/go-mod/go-version/MetaCubeX/mihomo/Alpha?style=flat-square">
   <a href="https://github.com/channingkuo/klash-kernel/releases">
