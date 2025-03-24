@@ -1,20 +1,18 @@
 <h1 align="center">
-  <img src="Meta.png" alt="Meta Kennel" width="200">
-  <br>Meta Kernel<br>
+  <img src="klash-kernel.png" alt="Klash Kernel" width="200">
+  <br>Klash Kernel<br>
 </h1>
-
-<h3 align="center">Another Mihomo Kernel.</h3>
 
 <p align="center">
   <a href="https://goreportcard.com/report/github.com/MetaCubeX/mihomo">
     <img src="https://goreportcard.com/badge/github.com/MetaCubeX/mihomo?style=flat-square">
   </a>
   <img src="https://img.shields.io/github/go-mod/go-version/MetaCubeX/mihomo/Alpha?style=flat-square">
-  <a href="https://github.com/MetaCubeX/mihomo/releases">
-    <img src="https://img.shields.io/github/release/MetaCubeX/mihomo/all.svg?style=flat-square">
+  <a href="https://github.com/channingkuo/klash-kernel/releases">
+    <img src="https://img.shields.io/github/v/release/klash-kernel/all.svg?style=flat-square">
   </a>
-  <a href="https://github.com/MetaCubeX/mihomo">
-    <img src="https://img.shields.io/badge/release-Meta-00b4f0?style=flat-square">
+  <a href="https://github.com/channingkuo/klash-kernel">
+    <img src="https://img.shields.io/badge/release-klash-kernel?style=flat-square">
   </a>
 </p>
 
@@ -27,20 +25,12 @@
 - Remote groups allow users to implement powerful rules. Supports automatic fallback, load balancing or auto select node
   based off latency
 - Remote providers, allowing users to get node lists remotely instead of hard-coding in config
-- Netfilter TCP redirecting. Deploy Mihomo on your Internet gateway with `iptables`.
+- Netfilter TCP redirecting. Deploy Klash Kernel on your Internet gateway with `iptables`.
 - Comprehensive HTTP RESTful API controller
-
-## Dashboard
-
-A web dashboard with first-class support for this project has been created; it can be checked out at [metacubexd](https://github.com/MetaCubeX/metacubexd).
 
 ## Configration example
 
-Configuration example is located at [/docs/config.yaml](https://github.com/MetaCubeX/mihomo/blob/Alpha/docs/config.yaml).
-
-## Docs
-
-Documentation can be found in [mihomo Docs](https://wiki.metacubex.one/).
+Configuration example is located at [/docs/config.yaml](https://github.com/channingkuo/klash-kernel/blob/master/docs/config.yaml).
 
 ## For development
 
@@ -50,8 +40,8 @@ Requirements:
 Build mihomo:
 
 ```shell
-git clone https://github.com/MetaCubeX/mihomo.git
-cd mihomo && go mod download
+git clone https://github.com/channingkuo/klash-kernel.git
+cd klash-kernel && go mod download
 go build
 ```
 
@@ -80,11 +70,6 @@ iptables:
   inbound-interface: eth0 # detect the inbound interface, default is 'lo'
 ```
 
-## Debugging
-
-Check [wiki](https://wiki.metacubex.one/api/#debug) to get an instruction on using debug
-API.
-
 ## Credits
 
 - [Dreamacro/clash](https://github.com/Dreamacro/clash)
@@ -97,5 +82,3 @@ API.
 ## License
 
 This software is released under the GPL-3.0 license.
-
-**In addition, any downstream projects not affiliated with `MetaCubeX` shall not contain the word `mihomo` in their names.**
