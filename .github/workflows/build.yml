@@ -289,6 +289,7 @@ jobs:
       run: |
         echo ${VERSION} > version.txt
       shell: bash
+      
     - name: Archive production artifacts
       uses: actions/upload-artifact@v4
       with:
@@ -320,9 +321,9 @@ jobs:
           git fetch --tags
           echo "PREVERSION=$(git describe --tags --abbrev=0 HEAD)" >> $GITHUB_ENV
 
-      - name: Tag the commit on Alpha
+      - name: Tag the commit on master
         run: |
-          git checkout Alpha 
+          git checkout master
           git tag ${{ github.event.inputs.version }}
           git push origin ${{ github.event.inputs.version }}
         env:
